@@ -45,7 +45,7 @@ void hehe (vector<vector<long>>& matrix, long i , long j , long Count, long N) {
                             matrix[i + 1][j] = Count + 1;
                             return hehe (matrix, i + 1, j, Count + 1, N);
                         }
-                    } else {
+                    } /*else {
                         if (matrix[i - 1][j + 1] == 0) {
                             matrix[i - 1][j + 1] = Count + 1;
                             return hehe (matrix, i - 1, j + 1, Count + 1, N);
@@ -53,7 +53,7 @@ void hehe (vector<vector<long>>& matrix, long i , long j , long Count, long N) {
                             matrix[0][j] = Count + 1;
                             return hehe (matrix, 0, j, Count + 1, N);
                         }
-                    }
+                    }*/
                 }
             }
         }
